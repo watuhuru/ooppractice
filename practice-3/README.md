@@ -10,6 +10,5 @@
 
 Интерфейс `Movable` реализуют `MovablePoint`, `MovableCircle` и `MovableRectangle`. Прямоугольник хранит две точки и при создании проверяет, что у них совпадают скорости.
 
-```text
-javac -d out (компилируйте исходники соответствующего пакета)
-```
+Для демонстрации в IntelliJ IDEA запускайте `practice3.shapes.ShapeDemo` и `practice3.movable.MovableDemo` по отдельности.
+
