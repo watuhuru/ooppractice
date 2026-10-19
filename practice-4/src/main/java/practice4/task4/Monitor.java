@@ -9,8 +9,17 @@ public class Monitor {
         this.resolution = resolution;
     }
 
+    public double getDiagonalInches() {
+        return diagonalInches;
+    }
+
+    public String getResolution() {
+        return resolution;
+    }
+
     @Override
     public String toString() {
         return diagonalInches + "\" " + resolution;
     }
 }
+
