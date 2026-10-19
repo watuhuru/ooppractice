@@ -1,4 +1,4 @@
-# Практическая работа № 1
+# Практическая работа №1 — часть 1
 
 Задания по основам Java: массивы, циклы, ввод и вывод, аргументы командной строки и методы.
 
@@ -17,7 +17,7 @@
 Каждый файл содержит собственный метод `main` и запускается независимо. Например, из корня репозитория:
 
 ```text
-javac -d out practice-1/src/main/java/practice1/InitializedArrayStatistics.java
+javac -d out practice-part1/src/main/java/practice1/InitializedArrayStatistics.java
 java -cp out practice1.InitializedArrayStatistics
 ```
 
@@ -26,5 +26,3 @@ java -cp out practice1.InitializedArrayStatistics
 ```text
 java -cp out practice1.CommandLineArguments привет Java
 ```
-
-

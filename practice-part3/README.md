@@ -1,4 +1,4 @@
-# Практическая работа № 3
+# Практическая работа №1 — часть 3
 
 ## Задание 1 — Shape
 
@@ -11,4 +11,3 @@
 Интерфейс `Movable` реализуют `MovablePoint`, `MovableCircle` и `MovableRectangle`. Прямоугольник хранит две точки и при создании проверяет, что у них совпадают скорости.
 
 Для демонстрации в IntelliJ IDEA запускайте `practice3.shapes.ShapeDemo` и `practice3.movable.MovableDemo` по отдельности.
-
