@@ -4,7 +4,5 @@
 
 Класс хранит имя, адрес электронной почты и пол автора. Имя и пол нельзя изменить после создания объекта; адрес можно изменить через `setEmail`. Класс `TestAuthor` показывает создание объекта, работу геттеров, изменение электронной почты и формат `toString()`.
 
-```text
-javac -d out practice-2/src/main/java/practice2/author/*.java
-java -cp out practice2.author.TestAuthor
-```
+В IntelliJ IDEA запустите класс `practice2.author.TestAuthor`.
+
