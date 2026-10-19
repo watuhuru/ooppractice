@@ -11,8 +11,21 @@ public class Processor {
         this.clockSpeedGhz = clockSpeedGhz;
     }
 
+    public String getModel() {
+        return model;
+    }
+
+    public int getCores() {
+        return cores;
+    }
+
+    public double getClockSpeedGhz() {
+        return clockSpeedGhz;
+    }
+
     @Override
     public String toString() {
         return model + ", " + cores + " ядер, " + clockSpeedGhz + " ГГц";
     }
 }
+
