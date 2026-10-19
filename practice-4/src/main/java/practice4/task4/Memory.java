@@ -9,8 +9,17 @@ public class Memory {
         this.type = type;
     }
 
+    public int getCapacityGb() {
+        return capacityGb;
+    }
+
+    public String getType() {
+        return type;
+    }
+
     @Override
     public String toString() {
         return capacityGb + " ГБ " + type;
     }
 }
+
